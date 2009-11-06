@@ -1,0 +1,13 @@
+Source: opencomicshelpers
+Section: unknown
+Priority: extra
+Maintainer: Fernando Michelotti <artista.frustrado@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: opencomicshelpers
+Architecture: all 
+Depends: ${shlibs:Depends}, ${misc:Depends}, gimp, scribus-ng
+Description: Scripts for automating comic book creation using Free Software Tools 
+	Scripts for automating comic book creation using Free Software Tools
+
